@@ -1,0 +1,15 @@
+C:\workspace\Java script\bin\Debug\net6.0\Java script.exe
+C:\workspace\Java script\bin\Debug\net6.0\Java script.deps.json
+C:\workspace\Java script\bin\Debug\net6.0\Java script.runtimeconfig.json
+C:\workspace\Java script\bin\Debug\net6.0\Java script.dll
+C:\workspace\Java script\bin\Debug\net6.0\Java script.pdb
+C:\workspace\Java script\obj\Debug\net6.0\Java script.csproj.AssemblyReference.cache
+C:\workspace\Java script\obj\Debug\net6.0\Java script.GeneratedMSBuildEditorConfig.editorconfig
+C:\workspace\Java script\obj\Debug\net6.0\Java script.AssemblyInfoInputs.cache
+C:\workspace\Java script\obj\Debug\net6.0\Java script.AssemblyInfo.cs
+C:\workspace\Java script\obj\Debug\net6.0\Java script.csproj.CoreCompileInputs.cache
+C:\workspace\Java script\obj\Debug\net6.0\Java script.dll
+C:\workspace\Java script\obj\Debug\net6.0\refint\Java script.dll
+C:\workspace\Java script\obj\Debug\net6.0\Java script.pdb
+C:\workspace\Java script\obj\Debug\net6.0\Java script.genruntimeconfig.cache
+C:\workspace\Java script\obj\Debug\net6.0\ref\Java script.dll
