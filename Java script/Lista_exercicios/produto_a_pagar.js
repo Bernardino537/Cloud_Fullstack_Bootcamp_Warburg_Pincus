@@ -10,26 +10,36 @@
 
 */
 
+function aplicar_desconto(valor, desconto)
+{
+    return (valor - (valor * (desconto / 100)).toFixed(2));
+}
+function aplicar_juros(valor, juros)
+{  
+    return (valor + (valor * (juros / 100).toFixed(2)));
+}
+
+
+
+
+
 const preco_etiqueta = 100;
-const debito = false;
-const pix_dinheiro = false;
-const parcelamento = 3;
+const forma_pagamento = 3;
+const quantidade_parcela = 3;
 
-const situacao_cliente = 0;
-
-if(debito === true)
+if(forma_pagamento === 1)
 {
-    console.log("Você recebeu 10% de desconto.", "Total a pagar R$:",preco_etiqueta - (preco_etiqueta * 0.10).toFixed(2))
+    console.log('Você recebeu 10% de desconto. Total a pagar R$:' + aplicar_desconto(preco_etiqueta, 10).toFixed(2));
 }
-else if(pix_dinheiro === true)
+else if(forma_pagamento === 2)
 {
-    console.log("Você tem 15% de desconto.", "Total a pagar R$:",preco_etiqueta - (preco_etiqueta * 0.15).toFixed(2))
+    console.log("Você tem 15% de desconto.", "Total a pagar R$:" + aplicar_desconto(preco_etiqueta, 15).toFixed(2));
 }
-else if(parcelamento <= 2)
+else if(quantidade_parcela <= 2)
 {
-    console.log("Em duas vezes sem juros.", "Total a pagar R$:", preco_etiqueta / 2)
+    console.log("Em duas vezes sem juros.", "Total a pagar R$:", preco_etiqueta / 2);
 }
 else
 {
-    console.log("Foi acrescentado 10%.", "Total a pagar R$:", (preco_etiqueta * 0.10) + preco_etiqueta, 'Em 3x de R$:', (((preco_etiqueta * 0.10) + preco_etiqueta) / 3).toFixed(2))
+    console.log("Foi acrescentado 10% de juros. Total a pagar R$:", aplicar_juros(preco_etiqueta, 10).toFixed(2), 'podendo parcelar em até 3x de R$:', (aplicar_juros(preco_etiqueta, 10).toFixed(2) /3).toFixed(2));
 }
